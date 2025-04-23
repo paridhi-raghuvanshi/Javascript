@@ -181,7 +181,7 @@ class Person {
 Person.prototype.introduce = function () {
     console.log("Hi,I'm",this.firstname);
 };
-Person.prototype.favouriteColor = "green";
+Person.prototype.favouriteColor = "Green";
 let p = new Person("Paridhi","Raghuvanshi");
 console.log(p.favouriteColor);
 p.introduce();
